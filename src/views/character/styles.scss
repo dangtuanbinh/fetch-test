@@ -1,0 +1,17 @@
+@mixin flexbox($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+$primary: #006769;
+$secondary: #40a578;
+$text-color: #81858c;
+$gray-background: #f3f5f7;
+$black: #000000;
+$error: #ef454a;
+
+.chatacter {
+
+}

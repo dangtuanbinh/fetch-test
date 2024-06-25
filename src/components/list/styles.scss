@@ -1,0 +1,33 @@
+.list {
+  width: 100%;
+  height: 500px;
+
+  border: 1px solid #1212140f;
+  border-radius: 20px;
+
+  padding: 20px;
+
+  box-shadow: 0 8px 56px #1212140f; 
+
+  &__search-input{
+    width: 100%;
+    height: 35px;
+
+    padding-left: 10px;
+
+    border-radius: 10px;
+  }
+
+  &__item-container{
+    width: 100%;
+    min-height: 300px;
+    max-height: 300px;
+    
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar{
+      display: none;
+    }
+  }
+}
+

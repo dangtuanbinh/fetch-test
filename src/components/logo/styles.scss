@@ -1,0 +1,30 @@
+.logo {
+  &__container{
+    img{
+      height: 300px;
+    }
+  }
+}
+
+/* Responsive */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 1060px) {
+  .logo {
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+   
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .logo{
+    
+  }
+}
+/* End of responsive */
