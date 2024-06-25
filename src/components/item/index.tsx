@@ -1,10 +1,9 @@
 import { GitlabFilled } from "@ant-design/icons";
 import "./styles.scss";
-import { IPokemon } from "../../utils/types/pokemonType";
 
 const classNamePrefix = "item";
 
-const Item = (props: { item: IPokemon, onItemClick: (item: IPokemon) => void }) => {
+const Item = (props: { item: any, onItemClick: (item: any) => void }) => {
   const { item, onItemClick } = props;
 
   return (

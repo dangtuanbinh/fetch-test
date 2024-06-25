@@ -1,7 +1,6 @@
 import { ChangeEvent, useState, useEffect } from "react";
 import "./styles.scss";
 import Item from "../item";
-import { IPokemon } from "../../utils/types/pokemonType";
 import PaginationSection from "../pagination";
 import {  CONSTANT, DEFAULT_ITEMS_PER_PAGE } from "../../utils/constants";
 import { useLocation } from "react-router-dom";
@@ -24,7 +23,7 @@ const List = (props: {
   const itemsPerPageParam = queryParams.itemsPerPage ? parseInt(queryParams.itemsPerPage as string, 10) : DEFAULT_ITEMS_PER_PAGE;
 
   const [searchTerm, setSearchTerm] = useState("");
-  const [filteredItems, setFilteredItems] = useState<IPokemon[]>([]);
+  const [filteredItems, setFilteredItems] = useState<any[]>([]);
   const [currentPageNumber,setCurrentPageNumber] = useState<number>(Number(currentPageParam || "0"))
 
   const indexOfLastItem = currentPageNumber * itemsPerPageParam;

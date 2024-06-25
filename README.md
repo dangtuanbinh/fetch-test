@@ -1,4 +1,4 @@
-# Pokemon
+# Starswar
 
 This project create a responsive app. Using Reactjs, Typescript, RTK Query, Ant-Design for Front-end.
 
@@ -6,7 +6,7 @@ This project create a responsive app. Using Reactjs, Typescript, RTK Query, Ant-
 
 Following below steps help you to run the app locally: 
 
-### `https://github.com/dangtuanbinh/pokemon-app.git`
+### `https://github.com/dangtuanbinh/fetch-test.git`
 
 Cloning the repository to your local laptop/workplace.
 

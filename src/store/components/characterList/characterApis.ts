@@ -1,7 +1,5 @@
-/* eslint-disable no-restricted-globals */
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { API_LINK } from "../../../utils/constants";
-import { IPokemonList } from "../../../utils/types/pokemonType";
 
 export const characterApis = createApi({
   reducerPath: "characterApis",
@@ -11,7 +9,7 @@ export const characterApis = createApi({
   }),
 
   endpoints: (builder) => ({
-    getCharacterList: builder.query<IPokemonList, void>({
+    getCharacterList: builder.query<any, void>({
       query: () => ({
         url: `https://swapi.dev/api/people`,
         method: "GET",

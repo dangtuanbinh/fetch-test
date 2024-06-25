@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { CONSTANT, noti } from "../../utils/constants";
-import { IPokemon } from "../../utils/types/pokemonType";
 import "./styles.scss";
 import { useDispatch, useSelector } from "react-redux";
 import { openModal } from "src/store/components/customModal/modalSlice";
